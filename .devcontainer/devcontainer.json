@@ -1,0 +1,16 @@
+{
+    "name": "PHP & Laravel",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [8000],
+    "customizations": {
+      "vscode": {
+        "extensions": ["felixfbecker.php-pack"],
+        "settings": {
+          "php.validate.executablePath": "/usr/bin/php"
+        }
+      }
+    }
+  }
+  
