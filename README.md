@@ -1,5 +1,9 @@
 ### This is a Starting template to create laravel app. It has configured to run in codespace with prebuilt dev container. So just fork or import it in a new repo and start developing laravel app in github codespace!
 
+## Setup
+1. Run `composer install`
+2. Run `php artisan key:generate`
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
