@@ -1,7 +1,7 @@
-FROM php:7.4-cli
+FROM php:8.1-cli
 
 RUN apt-get update && \
-    apt-get install -y libzip-dev unzip libonig-dev libpng-dev libjpeg-dev libfreetype6-dev default-mysql-client && \
+    apt-get install -y libzip-dev unzip git libonig-dev libpng-dev libjpeg-dev libfreetype6-dev default-mysql-client && \
     docker-php-ext-install zip mbstring pdo_mysql && \
     php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" && \
     php composer-setup.php && \
